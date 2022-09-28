@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bearhead {
+            width: 550px;
+            height: 550px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            left: 11%;
+            top: 50%;
+            transform: translate(50%, -50%);
+            background: #000;
+        }
+
+        .bearhead::before {
+            content: "";
+            width: 150px;
+            height: 150px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            left: -5%;
+            top: 40%;
+            background: red;
+        }
+
+        .bearhead::after {
+            content: "";
+            width: 150px;
+            height: 150px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            right: -6%;
+            top: 40%;
+            background: red;
+        }
+
+        .bearear {
+            width: 60px;
+            height: 60px;
+            border: 20px solid #000;
+            border-radius: 50%;
+            position: absolute;
+            left: 6%;
+            top: 2%;
+            background: #fff;
+        }
+
+        .bearear::after {
+            content: "";
+            width: 60px;
+            height: 60px;
+            border: 20px solid #000;
+            border-radius: 50%;
+            position: absolute;
+            right: -681%;
+            top: -27%;
+            background: #fff;
+        }
+
+
+        .beareyes {
+            width: 85px;
+            height: 85px;
+            border: 20px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 19%;
+            top: 22%;
+            background: #000;
+        }
+
+        .beareyes::after {
+            content: "";
+            width: 85px;
+            height: 85px;
+            border: 20px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 235%;
+            top: -22%;
+            background: #000;
+        }
+
+        .bearnose {
+            width: 250px;
+            height: 150px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            left: 28%;
+            top: 46%;
+            background: #fff;
+        }
+
+        .bearnose::before {
+            content: "";
+            width: 50px;
+            height: 40px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            left: 39%;
+            top: 3%;
+            background: #000;
+        }
+
+        .bearnose::after {
+            content: "";
+            width: 150px;
+            height: 60px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            position: absolute;
+            left: 20%;
+            top: 37%;
+            background: #000;
+        }
+
+        .bearv {
+            width: 50px;
+            height: 60px;
+            position: absolute;
+            left: 37%;
+            bottom: 8%;
+            transform: skewx(53deg);
+            background: #fff;
+        }
+
+        .bearv::after {
+            content: "";
+            width: 50px;
+            height: 60px;
+            position: absolute;
+            left: 207%;
+            bottom: -1%;
+            transform: skewx(291deg);
+            background: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bearhead">
+        <div class="bearear"></div>
+        <div class="beareyes"></div>
+        <div class="bearnose"></div>
+        <div class="bearv"></div>
+
+    </div>
+
+</body>
+
+</html>
